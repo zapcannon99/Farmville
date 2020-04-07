@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &220841088238957707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 742337128120508391}
+  - component: {fileID: 6777248902820333534}
+  m_Layer: 0
+  m_Name: Tomato
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &742337128120508391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220841088238957707}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6777248902820333534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220841088238957707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a562f1832fc46b24cbd0ea5c35f0ec17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 0
+  GrowthPeriod: 2
+  SeedlingPeriod: 1
+  SeedPeriod: 1
+  Plant: {fileID: 1000011516977654, guid: 1cee73a22ae3bff49a094a5883eabd3c, type: 3}
+  Fruit: {fileID: 1000011675367718, guid: 054e8622a5bae1644b0baa6708dbbc5d, type: 3}
+  CurrentForm: {fileID: 0}
+  watered: 0
+  FruitSpawnPositionOffsets:
+  - {x: 0.1323011, y: 1.477241, z: 0.4040598}
+  - {x: 0.2522294, y: 1.065305, z: -0.1321434}
+  - {x: -0.1901324, y: 0.6547961, z: 0.5861841}
+  FruitSpawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  SeedlingSizeRatio: 0.1
+  phase: 1
+  species: 1
